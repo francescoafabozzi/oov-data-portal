@@ -1,1 +1,90 @@
-<!DOCTYPE html><html><body><h1>Placeholder Index - Replace with textdoc content</h1></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yale ICF Origins of Value Portal</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/list.js@2.3.1/dist/list.min.js"></script>
+  <script src="datasets.js" defer></script>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Origins of Value Collection</h1>
+      <p class="subtitle">Yale International Center for Finance</p>
+    </div>
+  </header>
+  <main class="container">
+    <section id="about">
+      <h2>About the Collection</h2>
+      <p>This portal provides access to the Yale ICF “Origins of Value” collection. Browse historical bonds, charters, and pamphlets with metadata, high-resolution scans, and detailed descriptions.</p>
+    </section>
+    <section id="records">
+      <h2>Collection Records</h2>
+      <input class="search" placeholder="Search records..." />
+      <button class="sort" data-sort="title">Sort by Title</button>
+      <button class="sort" data-sort="period">Sort by Period</button>
+      <ul class="list" id="record-list">
+        <!-- Records dynamically loaded here -->
+      </ul>
+      <div id="pagination"></div>
+    </section>
+  </main>
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Yale International Center for Finance | Hosted on GitHub Pages</p>
+    </div>
+  </footer>
+  <script>
+    let currentPage = 1;
+    const perPage = 20;
+
+    fetch('datasets.json')
+      .then(response => response.json())
+      .then(data => {
+        const listContainer = document.getElementById('record-list');
+        const pagination = document.getElementById('pagination');
+
+        function renderPage(page) {
+          listContainer.innerHTML = '';
+          const start = (page - 1) * perPage;
+          const end = start + perPage;
+          const pageItems = data.slice(start, end);
+
+          pageItems.forEach(record => {
+            const li = document.createElement('li');
+            li.innerHTML = `
+              <h3 class="title"><a href="detail.html?id=${record.id}">${record.title}</a></h3>
+              <p>Location: ${record.location || 'N/A'}</p>
+              <p>Period: ${record.period || 'N/A'}</p>
+              <p>Type: ${record.type || 'N/A'}</p>
+              <p>Description: ${record.description.slice(0, 120)}...</p>
+            `;
+            listContainer.appendChild(li);
+          });
+          renderPagination(page);
+        }
+
+        function renderPagination(page) {
+          const totalPages = Math.ceil(data.length / perPage);
+          pagination.innerHTML = '';
+          for (let i = 1; i <= totalPages; i++) {
+            const btn = document.createElement('button');
+            btn.textContent = i;
+            if (i === page) btn.disabled = true;
+            btn.onclick = () => {
+              currentPage = i;
+              renderPage(currentPage);
+            };
+            pagination.appendChild(btn);
+          }
+        }
+
+        renderPage(currentPage);
+        new List('records', { valueNames: ['title', 'period'] });
+      });
+  </script>
+</body>
+</html>
+
