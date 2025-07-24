@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Record Details</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1 id="record-title">Loading...</h1>
+      <p class="subtitle">Yale International Center for Finance</p>
+    </div>
+  </header>
+  <main class="container" id="record-detail">
+    <p id="record-meta"></p>
+    <p id="record-description"></p>
+    <div id="page-viewer">
+      <img id="record-page" src="" alt="Record Page" style="max-width:100%; height:auto;">
+      <div>
+        <button id="prev-page">Previous</button>
+        <span id="page-count"></span>
+        <button id="next-page">Next</button>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Yale International Center for Finance</p>
+    </div>
+  </footer>
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    const recordId = params.get('id');
+    let recordData = null;
+    let currentPageIndex = 0;
+
+    fetch('datasets.json').then(res => res.json()).then(data => {
+      recordData = data.find(d => d.id === recordId);
+      if (!recordData) return;
+
+      document.getElementById('record-title').textContent = recordData.title;
+      document.getElementById('record-meta').textContent = 
+        `Location: ${recordData.location} | Period: ${recordData.period} | Type: ${recordData.type} | Author: ${recordData.author}`;
+      document.getElementById('record-description').textContent = recordData.description;
+      updatePage();
+
+      document.getElementById('prev-page').onclick = () => {
+        if (currentPageIndex > 0) { currentPageIndex--; updatePage(); }
+      };
+      document.getElementById('next-page').onclick = () => {
+        if (currentPageIndex < recordData.pages.length - 1) { currentPageIndex++; updatePage(); }
+      };
+    });
+
+    function updatePage() {
+      const img = document.getElementById('record-page');
+      img.src = recordData.pages[currentPageIndex];
+      document.getElementById('page-count').textContent = 
+        `Page ${currentPageIndex + 1} of ${recordData.pages.length}`;
+    }
+  </script>
+</body>
+</html>
