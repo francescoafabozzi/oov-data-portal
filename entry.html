@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Entry Detail</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <a href="index.html" class="back-link">&larr; Back to Results</a>
+    <h1 id="entryTitle"></h1>
+    <p id="entryDesc"></p>
+
+    <div class="gallery">
+      <img id="mainImage" src="" alt="Gallery image">
+    </div>
+
+    <div class="gallery-nav">
+      <button id="prevBtn">Prev</button>
+      <input type="number" id="pageInput" min="1" style="width: 50px;">
+      <span id="pageCount"></span>
+      <button id="nextBtn">Next</button>
+      <button id="endBtn">End</button>
+    </div>
+  </div>
+
+  <script src="entry.js"></script>
+</body>
+</html>
+
