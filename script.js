@@ -20,7 +20,8 @@ async function loadResults() {
     }
 
     entries.forEach(item => {
-      const previewImage = (item.gallery && item.gallery.length > 0) ? item.gallery[0] : '';
+      //const previewImage = (item.gallery && item.gallery.length > 0) ? item.gallery[0] : '';
+      const previewImage = `thumbnails/${item.id}.jpg`;
 
       const el = document.createElement('a');
       el.href = `entry.html?id=${item.id}`;
