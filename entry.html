@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Entry Detail</title>
   <link rel="stylesheet" href="styles.css">
+  <!-- OpenSeadragon library -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/openseadragon/4.1.0/openseadragon.min.js"></script>
 </head>
 <body>
   <div class="container">
@@ -12,11 +14,11 @@
     <h1 id="entryTitle"></h1>
     <p id="entryDesc"></p>
 
-    <div class="gallery">
-      <img id="mainImage" src="" alt="Gallery image">
-    </div>
+    <!-- Deep Zoom Viewer -->
+    <div id="viewer" style="width: 100%; height: 600px; background: #000;"></div>
 
-    <div class="gallery-nav">
+    <!-- Navigation Controls -->
+    <div class="gallery-nav" style="margin-top: 1rem; text-align: center;">
       <button id="prevBtn">Prev</button>
       <input type="number" id="pageInput" min="1" style="width: 50px;">
       <span id="pageCount"></span>

@@ -20,11 +20,13 @@ async function loadResults() {
     }
 
     entries.forEach(item => {
+      const previewImage = (item.gallery && item.gallery.length > 0) ? item.gallery[0] : '';
+
       const el = document.createElement('a');
       el.href = `entry.html?id=${item.id}`;
       el.className = 'result-item';
       el.innerHTML = `
-        <img src="${item.thumbnail}" alt="${item.title}">
+        ${previewImage ? `<img src="${previewImage}" alt="${item.title}">` : ''}
         <div class="result-details">
           <h3>${item.title}</h3>
           <p><strong>Location:</strong> ${item.location || 'N/A'}</p>
@@ -43,21 +45,20 @@ async function loadResults() {
       return (!fields.keywords.value || item.title.toLowerCase().includes(fields.keywords.value.toLowerCase()) || (item.description && item.description.toLowerCase().includes(fields.keywords.value.toLowerCase()))) &&
              (!fields.period.value || item.period === fields.period.value) &&
              (!fields.type.value || item.type === fields.type.value) &&
-             (!fields.ledger.value || item.ledger && item.ledger.toLowerCase() === fields.ledger.value.toLowerCase()) &&
-             (!fields.location.value || item.location && item.location.toLowerCase().includes(fields.location.value.toLowerCase())) &&
-             (!fields.owner.value || item.owner && item.owner.toLowerCase() === fields.owner.value.toLowerCase());
+             (!fields.ledger.value || (item.ledger && item.ledger.toLowerCase() === fields.ledger.value.toLowerCase())) &&
+             (!fields.location.value || (item.location && item.location.toLowerCase().includes(fields.location.value.toLowerCase()))) &&
+             (!fields.owner.value || (item.owner && item.owner.toLowerCase() === fields.owner.value.toLowerCase()));
     });
     render(filtered);
   }
 
-  // Hook up filter events
   Object.values(fields).forEach(field => field.addEventListener('input', applyFilters));
   document.getElementById('resetBtn').addEventListener('click', () => {
     Object.values(fields).forEach(f => f.value = '');
     render(data);
   });
 
-  render(data); // initial load
+  render(data);
 }
 
 loadResults();

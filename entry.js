@@ -17,12 +17,24 @@ async function loadEntry() {
   const images = entry.gallery;
   let currentIndex = 0;
 
-  const mainImage = document.getElementById('mainImage');
   const pageInput = document.getElementById('pageInput');
   const pageCount = document.getElementById('pageCount');
+  let viewer;
 
   function updateImage() {
-    mainImage.src = images[currentIndex];
+    const url = images[currentIndex];
+
+    if (!viewer) {
+      viewer = OpenSeadragon({
+        id: "viewer",
+        prefixUrl: "https://cdnjs.cloudflare.com/ajax/libs/openseadragon/4.1.0/images/",
+        tileSources: url,
+        showNavigator: true
+      });
+    } else {
+      viewer.open(url);
+    }
+
     pageInput.value = currentIndex + 1;
     pageCount.textContent = `/ ${images.length}`;
   }
@@ -50,7 +62,11 @@ async function loadEntry() {
     }
   });
 
-  updateImage();
+  if (images.length > 0) {
+    updateImage();
+  } else {
+    document.getElementById('viewer').innerHTML = "<p>No images available.</p>";
+  }
 }
 
 loadEntry();
