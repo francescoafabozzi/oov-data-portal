@@ -6,6 +6,7 @@ async function loadResults() {
   // Pagination variables
   let currentPage = 1;
   let itemsPerPage = 20;
+  let filteredData = [...data];
 
   const fields = {
     keywords: document.getElementById('keywords'),
@@ -23,9 +24,9 @@ async function loadResults() {
   const nextBtn = document.getElementById('nextPage');
   const pageSizeSelect = document.getElementById('pageSize');
 
-  function render(entries) {
+  function render() {
     list.innerHTML = '';
-    if (entries.length === 0) {
+    if (filteredData.length === 0) {
       list.innerHTML = '<p>No results found.</p>';
       pagination.style.display = 'none';
       return;
@@ -33,22 +34,22 @@ async function loadResults() {
 
     pagination.style.display = 'block';
 
-    const totalPages = Math.ceil(entries.length / itemsPerPage);
+    const totalPages = Math.ceil(filteredData.length / itemsPerPage);
     if (currentPage > totalPages) currentPage = totalPages;
 
     const start = (currentPage - 1) * itemsPerPage;
     const end = start + itemsPerPage;
-    const pageEntries = entries.slice(start, end);
+    const pageEntries = filteredData.slice(start, end);
 
     pageEntries.forEach(item => {
-      const previewImage = `thumbnail/${item.id}.jpg`;
+      const previewImage = `thumbnails/${item.id}.jpg`;  // Adjust if folder path differs
 
       const el = document.createElement('div');
       el.className = 'result-item';
       el.innerHTML = `
         <div class="result-thumbnail">
           <a href="entry.html?id=${item.id}">
-            <img src="${previewImage}" alt="${item.title}">
+            <img src="${previewImage}" alt="${item.title}" onerror="this.style.display='none'">
           </a>
         </div>
         <div class="result-details">
@@ -70,9 +71,9 @@ async function loadResults() {
     nextBtn.disabled = currentPage === totalPages;
   }
 
-  function applyFilters() {
-    currentPage = 1;
-    const filtered = data.filter(item => {
+  function applyFilters(resetPage = true) {
+    if (resetPage) currentPage = 1;
+    filteredData = data.filter(item => {
       return (!fields.keywords.value || item.title.toLowerCase().includes(fields.keywords.value.toLowerCase()) || (item.description && item.description.toLowerCase().includes(fields.keywords.value.toLowerCase()))) &&
              (!fields.period.value || item.period === fields.period.value) &&
              (!fields.type.value || item.type === fields.type.value) &&
@@ -80,35 +81,35 @@ async function loadResults() {
              (!fields.location.value || (item.location && item.location.toLowerCase().includes(fields.location.value.toLowerCase()))) &&
              (!fields.owner.value || (item.owner && item.owner.toLowerCase() === fields.owner.value.toLowerCase()));
     });
-    render(filtered);
+    render();
   }
 
   // Event listeners for search/filter
-  Object.values(fields).forEach(field => field.addEventListener('input', applyFilters));
+  Object.values(fields).forEach(field => field.addEventListener('input', () => applyFilters(true)));
   document.getElementById('resetBtn').addEventListener('click', () => {
     Object.values(fields).forEach(f => f.value = '');
-    applyFilters();
+    applyFilters(true);
   });
 
   // Pagination controls
   prevBtn.addEventListener('click', () => {
     if (currentPage > 1) {
       currentPage--;
-      applyFilters();
+      render();
     }
   });
 
   nextBtn.addEventListener('click', () => {
     currentPage++;
-    applyFilters();
+    render();
   });
 
   pageSizeSelect.addEventListener('change', () => {
     itemsPerPage = parseInt(pageSizeSelect.value, 10);
     currentPage = 1;
-    applyFilters();
+    render();
   });
 
-  applyFilters();
+  applyFilters(true);
 }
 loadResults();
