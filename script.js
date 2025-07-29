@@ -2,7 +2,8 @@ async function loadResults() {
   const res = await fetch('results.json');
   const data = await res.json();
   const list = document.getElementById('resultsList');
-  const pagination = document.getElementById('pagination');
+  const paginationTop = document.getElementById('pagination-top');
+  const paginationBottom = document.getElementById('pagination');
 
   // Pagination settings
   let currentPage = 1;
@@ -18,11 +19,37 @@ async function loadResults() {
     owner: document.getElementById('owner')
   };
 
+  function buildPagination() {
+    const totalPages = Math.ceil(filteredData.length / itemsPerPage);
+    const start = (currentPage - 1) * itemsPerPage;
+    const end = Math.min(start + itemsPerPage, filteredData.length);
+    const totalRecords = filteredData.length;
+
+    let html = `<div class="page-status">Displaying records ${start + 1} - ${end} of ${totalRecords}</div>`;
+    html += `<div class="page-links">Page: `;
+
+    for (let i = 1; i <= totalPages; i++) {
+      if (i === currentPage) {
+        html += `<span class="current">${i}</span> `;
+      } else {
+        html += `<a href="#" data-page="${i}">${i}</a> `;
+      }
+    }
+
+    if (currentPage < totalPages) {
+      html += `| <a href="#" data-page="${currentPage + 1}">next</a>`;
+    }
+
+    html += `</div>`;
+    return html;
+  }
+
   function render() {
     list.innerHTML = '';
     if (filteredData.length === 0) {
       list.innerHTML = '<p>No results found.</p>';
-      pagination.innerHTML = '';
+      paginationTop.innerHTML = '';
+      paginationBottom.innerHTML = '';
       return;
     }
 
@@ -58,33 +85,13 @@ async function loadResults() {
       list.appendChild(el);
     });
 
-    // Build page navigation like your screenshot
-    const totalRecords = filteredData.length;
-    const displayStart = start + 1;
-    const displayEnd = end;
+    // Render pagination at top and bottom
+    const paginationHTML = buildPagination();
+    paginationTop.innerHTML = paginationHTML;
+    paginationBottom.innerHTML = paginationHTML;
 
-    let html = `<div class="page-status">Displaying records ${displayStart} - ${displayEnd} of ${totalRecords}</div>`;
-    html += `<div class="page-links">Page: `;
-
-    // Show all page numbers (basic version)
-    for (let i = 1; i <= totalPages; i++) {
-      if (i === currentPage) {
-        html += `<span class="current">${i}</span> `;
-      } else {
-        html += `<a href="#" data-page="${i}">${i}</a> `;
-      }
-    }
-
-    // Add "next" link if not last page
-    if (currentPage < totalPages) {
-      html += `| <a href="#" data-page="${currentPage + 1}">next</a>`;
-    }
-
-    html += `</div>`;
-    pagination.innerHTML = html;
-
-    // Attach listeners for page links
-    pagination.querySelectorAll('a[data-page]').forEach(link => {
+    // Add event listeners to all page links
+    document.querySelectorAll('#pagination-top a[data-page], #pagination a[data-page]').forEach(link => {
       link.addEventListener('click', e => {
         e.preventDefault();
         currentPage = parseInt(link.dataset.page, 10);
