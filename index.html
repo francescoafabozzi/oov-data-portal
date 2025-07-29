@@ -3,25 +3,51 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Yale SOM Archive</title>
+  <title>Origins of Value</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header class="site-header">
-    <div class="container">
-      <h1 class="site-title">Yale SOM Archive</h1>
-      <input type="text" id="searchInput" placeholder="Search records...">
-    </div>
+  <!-- Banner -->
+  <header class="banner">
+    <img src="header-1000.png" alt="Origins of Value">
   </header>
 
-  <main class="container">
-    <div id="resultsGrid" class="results-grid">
-      <!-- Cards will be injected by script.js -->
+  <!-- Search Panel -->
+  <section class="search-panel">
+    <div class="container">
+      <h2>Search the Database</h2>
+      <form id="searchForm">
+        <input type="text" id="keywords" placeholder="Keywords contain">
+        <input type="text" id="location" placeholder="Location contains">
+        <input type="text" id="owner" placeholder="Owner equals">
+
+        <select id="period">
+          <option value="">Period (all)</option>
+          <option value="19th Century">19th Century</option>
+          <option value="20th Century">20th Century</option>
+          <option value="21st Century">21st Century</option>
+        </select>
+
+        <select id="type">
+          <option value="">Type (all)</option>
+          <option value="security">Security</option>
+          <option value="ledger">Ledger</option>
+          <option value="currency">Currency</option>
+        </select>
+
+        <input type="text" id="ledger" placeholder="Ledger Name is">
+        <button type="button" id="resetBtn">Reset</button>
+      </form>
     </div>
+  </section>
+
+  <!-- Results -->
+  <main class="container">
+    <div id="resultsList" class="results-list"></div>
   </main>
 
   <footer class="site-footer">
-    <p>&copy; 2025 Yale SOM (Replica)</p>
+    <p>&copy; 2025 Origins of Value: A Virtual Museum of Money and Finance</p>
   </footer>
 
   <script src="script.js"></script>

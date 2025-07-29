@@ -1,24 +1,51 @@
 [
   {
     "id": 1,
-    "title": "Historic Document",
-    "description": "An important document from the Yale SOM archives.",
-    "thumbnail": "https://your-bucket.s3.amazonaws.com/doc1-thumb.jpg",
+    "title": "Burmese Government Lottery Note, 1942",
+    "description": "Government lottery loan issued for 10 kyats each (total of 1,000,000 kyats). The awards were 5,000 kyats and smaller denominations. Issued by the Burmese government as a wartime financing instrument.",
+    "thumbnail": "https://your-s3-bucket.s3.amazonaws.com/burma-lottery-thumb.jpg",
     "gallery": [
-      "https://your-bucket.s3.amazonaws.com/doc1-1.jpg",
-      "https://your-bucket.s3.amazonaws.com/doc1-2.jpg",
-      "https://your-bucket.s3.amazonaws.com/doc1-3.jpg"
-    ]
+      "https://your-s3-bucket.s3.amazonaws.com/burma-lottery-1.jpg",
+      "https://your-s3-bucket.s3.amazonaws.com/burma-lottery-2.jpg"
+    ],
+    "location": "Myanmar (Burma)",
+    "date": "1942",
+    "period": "20th Century",
+    "type": "security",
+    "ledger": "Government Loans",
+    "owner": "Yale ICF"
   },
   {
     "id": 2,
-    "title": "Artifact Two",
-    "description": "A key artifact with multiple images.",
-    "thumbnail": "https://your-bucket.s3.amazonaws.com/artifact-thumb.jpg",
+    "title": "Japanese Government Bond, 1890",
+    "description": "A Meiji-era bond issued by the Japanese government, reflecting early state financing practices.",
+    "thumbnail": "https://your-s3-bucket.s3.amazonaws.com/japan-bond-thumb.jpg",
     "gallery": [
-      "https://your-bucket.s3.amazonaws.com/artifact-1.jpg",
-      "https://your-bucket.s3.amazonaws.com/artifact-2.jpg"
-    ]
+      "https://your-s3-bucket.s3.amazonaws.com/japan-bond-1.jpg",
+      "https://your-s3-bucket.s3.amazonaws.com/japan-bond-2.jpg",
+      "https://your-s3-bucket.s3.amazonaws.com/japan-bond-3.jpg"
+    ],
+    "location": "Japan",
+    "date": "1890",
+    "period": "19th Century",
+    "type": "security",
+    "ledger": "Imperial Bonds",
+    "owner": "Yale ICF"
+  },
+  {
+    "id": 3,
+    "title": "French Colonial Currency, 1930",
+    "description": "A banknote issued for use in French Indochina, displaying colonial-era monetary practices.",
+    "thumbnail": "https://your-s3-bucket.s3.amazonaws.com/french-currency-thumb.jpg",
+    "gallery": [
+      "https://your-s3-bucket.s3.amazonaws.com/french-currency-1.jpg"
+    ],
+    "location": "French Indochina",
+    "date": "1930",
+    "period": "20th Century",
+    "type": "currency",
+    "ledger": "Colonial Issues",
+    "owner": "Yale ICF"
   }
 ]
 

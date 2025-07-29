@@ -1,53 +1,64 @@
 async function loadResults() {
-  try {
-    // Load data from JSON
-    const res = await fetch('results.json');
-    const data = await res.json();
+  const res = await fetch('results.json');
+  const data = await res.json();
+  const list = document.getElementById('resultsList');
 
-    const grid = document.getElementById('resultsGrid');
-    const searchInput = document.getElementById('searchInput');
+  const fields = {
+    keywords: document.getElementById('keywords'),
+    period: document.getElementById('period'),
+    type: document.getElementById('type'),
+    ledger: document.getElementById('ledger'),
+    location: document.getElementById('location'),
+    owner: document.getElementById('owner')
+  };
 
-    // Function to render a set of entries
-    function render(entries) {
-      grid.innerHTML = '';
-      if (entries.length === 0) {
-        grid.innerHTML = '<p>No records found.</p>';
-        return;
-      }
-
-      entries.forEach(item => {
-        const card = document.createElement('a');
-        card.className = 'result-card';
-        card.href = `entry.html?id=${item.id}`;  // Link to detail page
-        card.innerHTML = `
-          <img src="${item.thumbnail}" alt="${item.title}">
-          <div class="result-content">
-            <h2 class="result-title">${item.title}</h2>
-            <p class="result-desc">${item.description}</p>
-          </div>
-        `;
-        grid.appendChild(card);
-      });
+  function render(entries) {
+    list.innerHTML = '';
+    if (entries.length === 0) {
+      list.innerHTML = '<p>No results found.</p>';
+      return;
     }
 
-    // Initial render with all results
-    render(data);
-
-    // Live search filter
-    searchInput.addEventListener('input', (e) => {
-      const term = e.target.value.toLowerCase();
-      const filtered = data.filter(item =>
-        item.title.toLowerCase().includes(term) ||
-        item.description.toLowerCase().includes(term)
-      );
-      render(filtered);
+    entries.forEach(item => {
+      const el = document.createElement('a');
+      el.href = `entry.html?id=${item.id}`;
+      el.className = 'result-item';
+      el.innerHTML = `
+        <img src="${item.thumbnail}" alt="${item.title}">
+        <div class="result-details">
+          <h3>${item.title}</h3>
+          <p><strong>Location:</strong> ${item.location || 'N/A'}</p>
+          <p><strong>Date:</strong> ${item.date || 'N/A'}</p>
+          <p><strong>Period:</strong> ${item.period || 'N/A'}</p>
+          <p><strong>Type:</strong> ${item.type || 'N/A'}</p>
+          <p><strong>Description:</strong> ${item.description || ''}</p>
+        </div>
+      `;
+      list.appendChild(el);
     });
-  } catch (err) {
-    console.error('Failed to load results.json:', err);
-    document.getElementById('resultsGrid').innerHTML = '<p>Error loading records.</p>';
   }
+
+  function applyFilters() {
+    const filtered = data.filter(item => {
+      return (!fields.keywords.value || item.title.toLowerCase().includes(fields.keywords.value.toLowerCase()) || (item.description && item.description.toLowerCase().includes(fields.keywords.value.toLowerCase()))) &&
+             (!fields.period.value || item.period === fields.period.value) &&
+             (!fields.type.value || item.type === fields.type.value) &&
+             (!fields.ledger.value || item.ledger && item.ledger.toLowerCase() === fields.ledger.value.toLowerCase()) &&
+             (!fields.location.value || item.location && item.location.toLowerCase().includes(fields.location.value.toLowerCase())) &&
+             (!fields.owner.value || item.owner && item.owner.toLowerCase() === fields.owner.value.toLowerCase());
+    });
+    render(filtered);
+  }
+
+  // Hook up filter events
+  Object.values(fields).forEach(field => field.addEventListener('input', applyFilters));
+  document.getElementById('resetBtn').addEventListener('click', () => {
+    Object.values(fields).forEach(f => f.value = '');
+    render(data);
+  });
+
+  render(data); // initial load
 }
 
-// Initialize
 loadResults();
 
