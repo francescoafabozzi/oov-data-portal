@@ -2,10 +2,11 @@ async function loadResults() {
   const res = await fetch('results.json');
   const data = await res.json();
   const list = document.getElementById('resultsList');
+  const pagination = document.getElementById('pagination');
 
-  // Pagination variables
+  // Pagination settings
   let currentPage = 1;
-  let itemsPerPage = 20;
+  const itemsPerPage = 20; // fixed
   let filteredData = [...data];
 
   const fields = {
@@ -17,32 +18,23 @@ async function loadResults() {
     owner: document.getElementById('owner')
   };
 
-  // Pagination controls
-  const pagination = document.getElementById('pagination');
-  const pageInfo = document.getElementById('pageInfo');
-  const prevBtn = document.getElementById('prevPage');
-  const nextBtn = document.getElementById('nextPage');
-  const pageSizeSelect = document.getElementById('pageSize');
-
   function render() {
     list.innerHTML = '';
     if (filteredData.length === 0) {
       list.innerHTML = '<p>No results found.</p>';
-      pagination.style.display = 'none';
+      pagination.innerHTML = '';
       return;
     }
-
-    pagination.style.display = 'block';
 
     const totalPages = Math.ceil(filteredData.length / itemsPerPage);
     if (currentPage > totalPages) currentPage = totalPages;
 
     const start = (currentPage - 1) * itemsPerPage;
-    const end = start + itemsPerPage;
+    const end = Math.min(start + itemsPerPage, filteredData.length);
     const pageEntries = filteredData.slice(start, end);
 
     pageEntries.forEach(item => {
-      const previewImage = `thumbnails/${item.id}.jpg`;  // Adjust if folder path differs
+      const previewImage = `thumbnails/${item.id}.jpg`;
 
       const el = document.createElement('div');
       el.className = 'result-item';
@@ -66,9 +58,39 @@ async function loadResults() {
       list.appendChild(el);
     });
 
-    pageInfo.textContent = `Page ${currentPage} of ${totalPages}`;
-    prevBtn.disabled = currentPage === 1;
-    nextBtn.disabled = currentPage === totalPages;
+    // Build page navigation like your screenshot
+    const totalRecords = filteredData.length;
+    const displayStart = start + 1;
+    const displayEnd = end;
+
+    let html = `<div class="page-status">Displaying records ${displayStart} - ${displayEnd} of ${totalRecords}</div>`;
+    html += `<div class="page-links">Page: `;
+
+    // Show all page numbers (basic version)
+    for (let i = 1; i <= totalPages; i++) {
+      if (i === currentPage) {
+        html += `<span class="current">${i}</span> `;
+      } else {
+        html += `<a href="#" data-page="${i}">${i}</a> `;
+      }
+    }
+
+    // Add "next" link if not last page
+    if (currentPage < totalPages) {
+      html += `| <a href="#" data-page="${currentPage + 1}">next</a>`;
+    }
+
+    html += `</div>`;
+    pagination.innerHTML = html;
+
+    // Attach listeners for page links
+    pagination.querySelectorAll('a[data-page]').forEach(link => {
+      link.addEventListener('click', e => {
+        e.preventDefault();
+        currentPage = parseInt(link.dataset.page, 10);
+        render();
+      });
+    });
   }
 
   function applyFilters(resetPage = true) {
@@ -84,30 +106,11 @@ async function loadResults() {
     render();
   }
 
-  // Event listeners for search/filter
+  // Event listeners for filters
   Object.values(fields).forEach(field => field.addEventListener('input', () => applyFilters(true)));
   document.getElementById('resetBtn').addEventListener('click', () => {
     Object.values(fields).forEach(f => f.value = '');
     applyFilters(true);
-  });
-
-  // Pagination controls
-  prevBtn.addEventListener('click', () => {
-    if (currentPage > 1) {
-      currentPage--;
-      render();
-    }
-  });
-
-  nextBtn.addEventListener('click', () => {
-    currentPage++;
-    render();
-  });
-
-  pageSizeSelect.addEventListener('change', () => {
-    itemsPerPage = parseInt(pageSizeSelect.value, 10);
-    currentPage = 1;
-    render();
   });
 
   applyFilters(true);
