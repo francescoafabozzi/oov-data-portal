@@ -3,6 +3,10 @@ async function loadResults() {
   const data = await res.json();
   const list = document.getElementById('resultsList');
 
+  // Pagination variables
+  let currentPage = 1;
+  let itemsPerPage = 20;
+
   const fields = {
     keywords: document.getElementById('keywords'),
     period: document.getElementById('period'),
@@ -12,24 +16,45 @@ async function loadResults() {
     owner: document.getElementById('owner')
   };
 
+  // Pagination controls
+  const pagination = document.getElementById('pagination');
+  const pageInfo = document.getElementById('pageInfo');
+  const prevBtn = document.getElementById('prevPage');
+  const nextBtn = document.getElementById('nextPage');
+  const pageSizeSelect = document.getElementById('pageSize');
+
   function render(entries) {
     list.innerHTML = '';
     if (entries.length === 0) {
       list.innerHTML = '<p>No results found.</p>';
+      pagination.style.display = 'none';
       return;
     }
 
-    entries.forEach(item => {
-      //const previewImage = (item.gallery && item.gallery.length > 0) ? item.gallery[0] : '';
-      const previewImage = `thumbnails/${item.id}.jpg`;
+    pagination.style.display = 'block';
 
-      const el = document.createElement('a');
-      el.href = `entry.html?id=${item.id}`;
+    const totalPages = Math.ceil(entries.length / itemsPerPage);
+    if (currentPage > totalPages) currentPage = totalPages;
+
+    const start = (currentPage - 1) * itemsPerPage;
+    const end = start + itemsPerPage;
+    const pageEntries = entries.slice(start, end);
+
+    pageEntries.forEach(item => {
+      const previewImage = `thumbnail/${item.id}.jpg`;
+
+      const el = document.createElement('div');
       el.className = 'result-item';
       el.innerHTML = `
-        ${previewImage ? `<img src="${previewImage}" alt="${item.title}">` : ''}
+        <div class="result-thumbnail">
+          <a href="entry.html?id=${item.id}">
+            <img src="${previewImage}" alt="${item.title}">
+          </a>
+        </div>
         <div class="result-details">
-          <h3>${item.title}</h3>
+          <h3>
+            <a href="entry.html?id=${item.id}">${item.title}</a>
+          </h3>
           <p><strong>Location:</strong> ${item.location || 'N/A'}</p>
           <p><strong>Date:</strong> ${item.date || 'N/A'}</p>
           <p><strong>Period:</strong> ${item.period || 'N/A'}</p>
@@ -39,9 +64,14 @@ async function loadResults() {
       `;
       list.appendChild(el);
     });
+
+    pageInfo.textContent = `Page ${currentPage} of ${totalPages}`;
+    prevBtn.disabled = currentPage === 1;
+    nextBtn.disabled = currentPage === totalPages;
   }
 
   function applyFilters() {
+    currentPage = 1;
     const filtered = data.filter(item => {
       return (!fields.keywords.value || item.title.toLowerCase().includes(fields.keywords.value.toLowerCase()) || (item.description && item.description.toLowerCase().includes(fields.keywords.value.toLowerCase()))) &&
              (!fields.period.value || item.period === fields.period.value) &&
@@ -53,14 +83,32 @@ async function loadResults() {
     render(filtered);
   }
 
+  // Event listeners for search/filter
   Object.values(fields).forEach(field => field.addEventListener('input', applyFilters));
   document.getElementById('resetBtn').addEventListener('click', () => {
     Object.values(fields).forEach(f => f.value = '');
-    render(data);
+    applyFilters();
   });
 
-  render(data);
+  // Pagination controls
+  prevBtn.addEventListener('click', () => {
+    if (currentPage > 1) {
+      currentPage--;
+      applyFilters();
+    }
+  });
+
+  nextBtn.addEventListener('click', () => {
+    currentPage++;
+    applyFilters();
+  });
+
+  pageSizeSelect.addEventListener('change', () => {
+    itemsPerPage = parseInt(pageSizeSelect.value, 10);
+    currentPage = 1;
+    applyFilters();
+  });
+
+  applyFilters();
 }
-
 loadResults();
-
