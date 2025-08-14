@@ -27,6 +27,10 @@ async function loadEntry() {
     viewer = OpenSeadragon({
       id: "viewer",
       prefixUrl: "https://cdnjs.cloudflare.com/ajax/libs/openseadragon/4.1.1/images/",
+      minZoomLevel: 0.5,
+      maxZoomLevel: 10,
+      zoomPerScroll: 1.2,
+      zoomPerClick: 2.0,
       tileSources: {
         type: "zoomifytileservice",
         tilesUrl: "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/705/",
@@ -49,6 +53,10 @@ async function loadEntry() {
       id: "viewer",
       prefixUrl: "https://cdnjs.cloudflare.com/ajax/libs/openseadragon/4.1.1/images/",
       showNavigator: true,
+      minZoomLevel: 0.5,
+      maxZoomLevel: 10,
+      zoomPerScroll: 1.2,
+      zoomPerClick: 2.0,
       tileSources: {
         type: "zoomifytileservice",
         tilesUrl: "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/419/",
