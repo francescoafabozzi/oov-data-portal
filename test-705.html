@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Test - Artifact 705 (Banku Malopolskiego)</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/openseadragon/4.1.1/openseadragon.min.js"></script>
+</head>
+<body>
+  <!-- Banner -->
+  <header class="banner">
+    <img src="header-1000.png" alt="Origins of Value">
+  </header>
+
+  <div class="container">
+    <a href="index.html" class="back-link">&larr; Back to Results</a>
+    <h1>Banku Malopolskiego</h1>
+    <p>Banku Malopolskiego, common stock, 1920</p>
+
+    <!-- OpenSeadragon Viewer for Artifact 705 -->
+    <div id="osd" style="width:100%;height:80vh;border:1px solid #ccc;"></div>
+    
+    <div style="margin-top: 20px;">
+      <h3>Test Information:</h3>
+      <p><strong>Artifact ID:</strong> 705</p>
+      <p><strong>Type:</strong> zoomifytileservice</p>
+      <p><strong>Tiles URL:</strong> https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/705/</p>
+      <p><strong>Dimensions:</strong> 1180 x 768</p>
+      <p><strong>Tile Size:</strong> 256</p>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <p>&copy; 2025 Origins of Value: A Virtual Museum of Money and Finance</p>
+  </footer>
+
+  <script>
+    // Initialize OpenSeadragon for artifact 705
+    OpenSeadragon({
+      id: "osd",
+      prefixUrl: "https://cdnjs.cloudflare.com/ajax/libs/openseadragon/4.1.1/images/",
+      tileSources: {
+        type: "zoomifytileservice",
+        tilesUrl: "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/705/",
+        width: 1180,
+        height: 768,
+        tileSize: 256
+      }
+    });
+  </script>
+</body>
+</html>

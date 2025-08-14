@@ -21,6 +21,27 @@ async function loadEntry() {
   const pageCount = document.getElementById('pageCount');
   let viewer;
 
+  // Special handling for artifact ID 705
+  if (entryId === 705) {
+    // Create the OpenSeadragon viewer for artifact 705
+    viewer = OpenSeadragon({
+      id: "viewer",
+      prefixUrl: "https://cdnjs.cloudflare.com/ajax/libs/openseadragon/4.1.1/images/",
+      tileSources: {
+        type: "zoomifytileservice",
+        tilesUrl: "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/705/",
+        width: 1180,
+        height: 768,
+        tileSize: 256
+      }
+    });
+    
+    // Hide navigation controls for artifact 705 since it's a single image
+    document.querySelector('.gallery-nav').style.display = 'none';
+    
+    return; // Exit early for artifact 705
+  }
+
   function updateImage() {
     const url = images[currentIndex];
 
