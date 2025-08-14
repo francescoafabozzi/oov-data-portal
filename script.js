@@ -26,21 +26,67 @@ async function loadResults() {
     const totalRecords = filteredData.length;
 
     let html = `<div class="page-status">Displaying records ${start + 1} - ${end} of ${totalRecords}</div>`;
-    html += `<div class="page-links">Page: `;
+    html += `<div class="page-links">`;
 
-    for (let i = 1; i <= totalPages; i++) {
-      if (i === currentPage) {
-        html += `<span class="current">${i}</span> `;
-      } else {
-        html += `<a href="#" data-page="${i}">${i}</a> `;
+    // Previous button
+    if (currentPage > 1) {
+      html += `<a href="#" data-page="${currentPage - 1}" class="prev">← Prev</a>`;
+    }
+
+    // Page numbers with smart truncation
+    const maxVisiblePages = 7;
+    let startPage = Math.max(1, currentPage - Math.floor(maxVisiblePages / 2));
+    let endPage = Math.min(totalPages, startPage + maxVisiblePages - 1);
+    
+    // Adjust start if we're near the end
+    if (endPage - startPage < maxVisiblePages - 1) {
+      startPage = Math.max(1, endPage - maxVisiblePages + 1);
+    }
+
+    // First page
+    if (startPage > 1) {
+      html += `<a href="#" data-page="1">1</a>`;
+      if (startPage > 2) {
+        html += `<span>...</span>`;
       }
     }
 
+    // Page numbers
+    for (let i = startPage; i <= endPage; i++) {
+      if (i === currentPage) {
+        html += `<span class="current">${i}</span>`;
+      } else {
+        html += `<a href="#" data-page="${i}">${i}</a>`;
+      }
+    }
+
+    // Last page
+    if (endPage < totalPages) {
+      if (endPage < totalPages - 1) {
+        html += `<span>...</span>`;
+      }
+      html += `<a href="#" data-page="${totalPages}">${totalPages}</a>`;
+    }
+
+    // Next button
     if (currentPage < totalPages) {
-      html += `| <a href="#" data-page="${currentPage + 1}">next</a>`;
+      html += `<a href="#" data-page="${currentPage + 1}" class="next">Next →</a>`;
     }
 
     html += `</div>`;
+
+    // Page size selector
+    html += `<div class="page-size-container">`;
+    html += `<label for="pageSize">Entries per page:</label>`;
+    html += `<select id="pageSize">`;
+    html += `<option value="20" ${itemsPerPage === 20 ? 'selected' : ''}>20</option>`;
+    html += `<option value="30" ${itemsPerPage === 30 ? 'selected' : ''}>30</option>`;
+    html += `<option value="40" ${itemsPerPage === 40 ? 'selected' : ''}>40</option>`;
+    html += `<option value="50" ${itemsPerPage === 50 ? 'selected' : ''}>50</option>`;
+    html += `<option value="60" ${itemsPerPage === 60 ? 'selected' : ''}>60</option>`;
+    html += `</select>`;
+    html += `</div>`;
+
     return html;
   }
 
