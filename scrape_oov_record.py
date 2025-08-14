@@ -8,6 +8,7 @@ import re, json, time
 from pathlib import Path
 import requests
 from playwright.sync_api import sync_playwright, TimeoutError as PwTimeout
+import pandas as pd
 
 BASE_RECORD = "https://oov.som.yale.edu/search_detail_book.php?id={record_id}"
 ZOOM_BASE  = "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/{zoom_id}/"
@@ -37,7 +38,7 @@ def fetch_image_props(zoom_id: int):
 
 def scrape_record(record_id: int, max_pages: int = 200, wait_ms: int = 600):
     url = BASE_RECORD.format(record_id=record_id)
-    out_path = Path(f"record_{record_id}.json")
+    out_path = Path(f"records/record_{record_id}.json")
     zoom_ids = set()
 
     def maybe_add(url: str):
@@ -133,5 +134,9 @@ def awaitable_is_visible(locator):
         return False
 
 if __name__ == "__main__":
+    df = pd.read_json('results.json')
+    id_list = df['id'].tolist()
     # Example: python scrape_oov_playwright.py
+    for id_ in id_list:
+        scrape_record(id_)
     scrape_record(419)

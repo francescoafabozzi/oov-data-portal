@@ -6,8 +6,9 @@ import re
 import numpy as np
 
 df = pd.read_json('results.json')
-base_path = "https://oov.som.yale.edu/search_detail_book.php?id="
 id_list = df['id'].tolist()
+base_path = "https://oov.som.yale.edu/search_detail_book.php?id="
+
 
 
 url = base_path + str(id_list[1])
@@ -72,13 +73,17 @@ df['dirty_index'] = thumbnail_index
 df['cleaned_description'] = cleaned
 
 
-
+thumbnail_index[50]
 
 
 ### Corrections 
 # thumbnail_index[17] currently is 214... should be 215 -- there is a random image for 214
 # thumbnail_index[33] currently is 272... should be 274 -- there is a random image for 237 should be skipped and not included in previous
 # thumbnail_index[36] currently at 293, should be 296 -- duplicate of 294, we can exclude 295
+
+
+
+
 
 
 
