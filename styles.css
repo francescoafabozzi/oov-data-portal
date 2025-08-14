@@ -113,46 +113,53 @@ button:hover {
   z-index: 1000;
 }
 
-/* Custom Zoom Controls - Bottom Bar */
+/* Custom Zoom Controls - Left Side Vertical Bar */
 .zoom-controls {
   position: absolute;
-  bottom: 20px;
-  left: 50%;
-  transform: translateX(-50%);
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%);
   background: rgba(0, 0, 0, 0.9);
   border: 2px solid #555;
-  border-radius: 25px;
-  padding: 12px 20px;
+  border-radius: 15px;
+  padding: 20px 12px;
   z-index: 1000;
   display: flex;
+  flex-direction: column;
   align-items: center;
-  gap: 20px;
+  gap: 15px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
 }
 
 .zoom-slider-container {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  gap: 15px;
+  gap: 10px;
 }
 
 .zoom-label {
   color: #fff;
-  font-size: 12px;
+  font-size: 11px;
   font-weight: bold;
-  min-width: 45px;
   text-align: center;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  transform: rotate(180deg);
+  margin: 5px 0;
 }
 
 .zoom-slider {
   -webkit-appearance: none;
   appearance: none;
-  width: 150px;
-  height: 8px;
+  width: 8px;
+  height: 120px;
   background: #333;
   outline: none;
   border-radius: 4px;
   cursor: pointer;
+  transform: rotate(-90deg);
+  margin: 20px 0;
 }
 
 .zoom-slider::-webkit-slider-thumb {
@@ -179,14 +186,15 @@ button:hover {
 
 .zoom-level {
   color: #fff;
-  font-size: 12px;
+  font-size: 11px;
   font-weight: bold;
-  min-width: 50px;
   text-align: center;
+  min-width: 30px;
 }
 
 .zoom-buttons {
   display: flex;
+  flex-direction: column;
   gap: 8px;
 }
 
