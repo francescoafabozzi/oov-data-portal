@@ -28,13 +28,12 @@ async function loadEntry() {
     zoomControls.innerHTML = `
       <div class="zoom-slider-container">
         <div class="zoom-label">ZOOM</div>
-        <input type="range" class="zoom-slider" min="0" max="100" value="50" step="1">
         <div class="zoom-level" id="zoom-level">100%</div>
       </div>
       <div class="zoom-buttons">
-        <button class="zoom-btn" id="zoom-out" title="Zoom Out">−</button>
-        <button class="zoom-btn" id="zoom-reset" title="Reset View">⌂</button>
         <button class="zoom-btn" id="zoom-in" title="Zoom In">+</button>
+        <button class="zoom-btn" id="zoom-reset" title="Reset View">⌂</button>
+        <button class="zoom-btn" id="zoom-out" title="Zoom Out">−</button>
         <button class="zoom-btn primary" id="zoom-fullscreen" title="Expand to Full View">⛶</button>
       </div>
     `;
@@ -42,11 +41,10 @@ async function loadEntry() {
     viewerElement.appendChild(zoomControls);
     
     // Get the zoom controls
-    const zoomSlider = zoomControls.querySelector('.zoom-slider');
     const zoomLevel = zoomControls.querySelector('#zoom-level');
-    const zoomOutBtn = zoomControls.querySelector('#zoom-out');
-    const zoomResetBtn = zoomControls.querySelector('#zoom-reset');
     const zoomInBtn = zoomControls.querySelector('#zoom-in');
+    const zoomResetBtn = zoomControls.querySelector('#zoom-reset');
+    const zoomOutBtn = zoomControls.querySelector('#zoom-out');
     const zoomFullscreenBtn = zoomControls.querySelector('#zoom-fullscreen');
     
     // Update zoom level display
@@ -54,23 +52,11 @@ async function loadEntry() {
       const zoom = viewer.viewport.getZoom(true);
       const zoomPercent = Math.round(zoom * 100);
       zoomLevel.textContent = `${zoomPercent}%`;
-      
-      // Update slider position (convert zoom to 0-100 range)
-      const sliderValue = Math.min(100, Math.max(0, (zoom - 0.5) / 9.5 * 100));
-      zoomSlider.value = sliderValue;
     }
     
-    // Zoom slider functionality
-    zoomSlider.addEventListener('input', function() {
-      const sliderValue = parseFloat(this.value);
-      const zoom = 0.5 + (sliderValue / 100) * 9.5; // Convert 0-100 to 0.5-10
-      viewer.viewport.zoomTo(zoom);
-      updateZoomLevel();
-    });
-    
     // Zoom button functionality
-    zoomOutBtn.addEventListener('click', function() {
-      viewer.viewport.zoomBy(0.8);
+    zoomInBtn.addEventListener('click', function() {
+      viewer.viewport.zoomBy(1.25);
       updateZoomLevel();
     });
     
@@ -79,8 +65,8 @@ async function loadEntry() {
       updateZoomLevel();
     });
     
-    zoomInBtn.addEventListener('click', function() {
-      viewer.viewport.zoomBy(1.25);
+    zoomOutBtn.addEventListener('click', function() {
+      viewer.viewport.zoomBy(0.8);
       updateZoomLevel();
     });
     

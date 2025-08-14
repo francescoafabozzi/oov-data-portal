@@ -75,18 +75,6 @@ async function loadResults() {
 
     html += `</div>`;
 
-    // Page size selector
-    html += `<div class="page-size-container">`;
-    html += `<label for="pageSize">Entries per page:</label>`;
-    html += `<select id="pageSize">`;
-    html += `<option value="20" ${itemsPerPage === 20 ? 'selected' : ''}>20</option>`;
-    html += `<option value="30" ${itemsPerPage === 30 ? 'selected' : ''}>30</option>`;
-    html += `<option value="40" ${itemsPerPage === 40 ? 'selected' : ''}>40</option>`;
-    html += `<option value="50" ${itemsPerPage === 50 ? 'selected' : ''}>50</option>`;
-    html += `<option value="60" ${itemsPerPage === 60 ? 'selected' : ''}>60</option>`;
-    html += `</select>`;
-    html += `</div>`;
-
     return html;
   }
 

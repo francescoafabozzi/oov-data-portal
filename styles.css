@@ -149,41 +149,6 @@ button:hover {
   margin: 5px 0;
 }
 
-.zoom-slider {
-  -webkit-appearance: none;
-  appearance: none;
-  width: 8px;
-  height: 120px;
-  background: #333;
-  outline: none;
-  border-radius: 4px;
-  cursor: pointer;
-  transform: rotate(-90deg);
-  margin: 20px 0;
-}
-
-.zoom-slider::-webkit-slider-thumb {
-  -webkit-appearance: none;
-  appearance: none;
-  width: 20px;
-  height: 20px;
-  background: #fff;
-  border-radius: 50%;
-  cursor: pointer;
-  border: 2px solid #555;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
-}
-
-.zoom-slider::-moz-range-thumb {
-  width: 20px;
-  height: 20px;
-  background: #fff;
-  border-radius: 50%;
-  cursor: pointer;
-  border: 2px solid #555;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
-}
-
 .zoom-level {
   color: #fff;
   font-size: 11px;
@@ -346,43 +311,6 @@ button:hover {
 .page-links .prev:hover {
   background: #4682b4;
   border-color: #4682b4;
-}
-
-/* Page size selector styling */
-.page-size-container {
-  margin-top: 1rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-}
-
-.page-size-container label {
-  color: #ccc;
-  font-size: 14px;
-  font-weight: 500;
-}
-
-.page-size-container select {
-  background: #222;
-  color: #fff;
-  border: 1px solid #555;
-  border-radius: 4px;
-  padding: 6px 12px;
-  font-size: 14px;
-  cursor: pointer;
-  transition: all 0.2s ease;
-}
-
-.page-size-container select:hover {
-  border-color: #666;
-  background: #333;
-}
-
-.page-size-container select:focus {
-  outline: none;
-  border-color: #4682b4;
-  box-shadow: 0 0 0 2px rgba(70, 130, 180, 0.2);
 }
 
 /* Responsive pagination */
