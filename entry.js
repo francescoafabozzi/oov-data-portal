@@ -29,12 +29,13 @@ async function loadEntry() {
       <div class="zoom-slider-container">
         <div class="zoom-label">ZOOM</div>
         <input type="range" class="zoom-slider" min="0" max="100" value="50" step="1">
-        <div class="zoom-label" id="zoom-level">100%</div>
+        <div class="zoom-level" id="zoom-level">100%</div>
       </div>
       <div class="zoom-buttons">
         <button class="zoom-btn" id="zoom-out" title="Zoom Out">−</button>
         <button class="zoom-btn" id="zoom-reset" title="Reset View">⌂</button>
         <button class="zoom-btn" id="zoom-in" title="Zoom In">+</button>
+        <button class="zoom-btn primary" id="zoom-fullscreen" title="Expand to Full View">⛶</button>
       </div>
     `;
     
@@ -46,6 +47,7 @@ async function loadEntry() {
     const zoomOutBtn = zoomControls.querySelector('#zoom-out');
     const zoomResetBtn = zoomControls.querySelector('#zoom-reset');
     const zoomInBtn = zoomControls.querySelector('#zoom-in');
+    const zoomFullscreenBtn = zoomControls.querySelector('#zoom-fullscreen');
     
     // Update zoom level display
     function updateZoomLevel() {
@@ -82,6 +84,33 @@ async function loadEntry() {
       updateZoomLevel();
     });
     
+    // Fullscreen functionality
+    zoomFullscreenBtn.addEventListener('click', function() {
+      if (!document.fullscreenElement) {
+        // Enter fullscreen
+        if (viewerElement.requestFullscreen) {
+          viewerElement.requestFullscreen();
+        } else if (viewerElement.webkitRequestFullscreen) {
+          viewerElement.webkitRequestFullscreen();
+        } else if (viewerElement.msRequestFullscreen) {
+          viewerElement.msRequestFullscreen();
+        }
+        this.textContent = '⛶';
+        this.title = 'Exit Full View';
+      } else {
+        // Exit fullscreen
+        if (document.exitFullscreen) {
+          document.exitFullscreen();
+        } else if (document.webkitExitFullscreen) {
+          document.webkitExitFullscreen();
+        } else if (document.msExitFullscreen) {
+          document.msExitFullscreen();
+        }
+        this.textContent = '⛶';
+        this.title = 'Expand to Full View';
+      }
+    });
+    
     // Update zoom level when viewport changes
     viewer.addHandler('update', updateZoomLevel);
     
@@ -104,6 +133,11 @@ async function loadEntry() {
         id: "viewer",
         prefixUrl: "https://cdnjs.cloudflare.com/ajax/libs/openseadragon/4.1.1/images/",
         showNavigator: true,
+        showNavigationControl: false,
+        showZoomControl: false,
+        showHomeControl: false,
+        showFullPageControl: false,
+        showSequenceControl: false,
         minZoomLevel: 0.5,
         maxZoomLevel: 10,
         zoomPerScroll: 1.2,
@@ -179,6 +213,12 @@ async function loadEntry() {
     viewer = OpenSeadragon({
       id: "viewer",
       prefixUrl: "https://cdnjs.cloudflare.com/ajax/libs/openseadragon/4.1.1/images/",
+      showNavigator: true,
+      showNavigationControl: false,
+      showZoomControl: false,
+      showHomeControl: false,
+      showFullPageControl: false,
+      showSequenceControl: false,
       minZoomLevel: 0.5,
       maxZoomLevel: 10,
       zoomPerScroll: 1.2,
@@ -211,8 +251,13 @@ async function loadEntry() {
       viewer = OpenSeadragon({
         id: "viewer",
         prefixUrl: "https://cdnjs.cloudflare.com/ajax/libs/openseadragon/4.1.0/images/",
+        showNavigator: true,
+        showNavigationControl: false,
+        showZoomControl: false,
+        showHomeControl: false,
+        showFullPageControl: false,
+        showSequenceControl: false,
         tileSources: url,
-        showNavigator: true
       });
       
       // Add custom zoom controls after viewer is initialized
