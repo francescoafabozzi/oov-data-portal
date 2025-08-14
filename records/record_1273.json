@@ -1,0 +1,30 @@
+{
+  "recordId": 1273,
+  "count": 3,
+  "items": [
+    {
+      "zoomId": 1273,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/1273/",
+      "width": 1080,
+      "height": 1536,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/1273/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 1274,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/1274/",
+      "width": 1090,
+      "height": 1536,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/1274/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 1276,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/1276/",
+      "width": 1025,
+      "height": 1536,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/1276/TileGroup0/0-0-0.jpg"
+    }
+  ]
+}

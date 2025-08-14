@@ -1,0 +1,2406 @@
+{
+  "recordId": 3073,
+  "count": 300,
+  "items": [
+    {
+      "zoomId": 3073,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3073/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3073/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3075,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3075/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3075/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3077,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3077/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3077/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3079,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3079/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3079/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3081,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3081/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3081/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3083,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3083/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3083/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3085,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3085/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3085/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3087,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3087/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3087/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3089,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3089/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3089/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3091,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3091/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3091/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3093,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3093/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3093/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3095,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3095/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3095/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3097,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3097/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3097/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3099,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3099/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3099/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3101,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3101/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3101/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3103,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3103/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3103/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3105,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3105/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3105/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3107,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3107/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3107/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3109,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3109/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3109/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3111,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3111/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3111/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3113,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3113/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3113/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3115,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3115/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3115/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3117,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3117/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3117/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3119,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3119/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3119/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3121,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3121/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3121/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3123,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3123/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3123/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3125,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3125/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3125/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3127,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3127/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3127/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3129,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3129/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3129/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3131,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3131/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3131/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3133,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3133/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3133/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3135,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3135/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3135/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3137,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3137/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3137/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3139,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3139/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3139/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3141,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3141/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3141/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3143,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3143/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3143/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3145,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3145/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3145/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3147,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3147/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3147/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3149,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3149/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3149/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3151,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3151/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3151/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3153,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3153/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3153/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3155,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3155/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3155/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3157,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3157/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3157/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3159,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3159/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3159/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3161,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3161/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3161/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3163,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3163/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3163/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3165,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3165/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3165/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3167,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3167/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3167/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3169,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3169/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3169/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3171,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3171/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3171/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3173,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3173/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3173/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3175,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3175/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3175/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3177,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3177/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3177/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3179,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3179/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3179/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3181,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3181/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3181/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3183,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3183/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3183/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3185,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3185/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3185/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3187,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3187/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3187/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3189,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3189/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3189/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3191,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3191/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3191/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3193,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3193/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3193/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3195,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3195/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3195/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3197,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3197/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3197/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3199,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3199/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3199/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3201,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3201/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3201/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3203,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3203/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3203/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3205,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3205/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3205/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3207,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3207/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3207/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3209,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3209/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3209/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3211,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3211/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3211/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3213,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3213/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3213/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3215,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3215/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3215/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3217,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3217/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3217/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3219,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3219/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3219/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3221,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3221/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3221/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3223,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3223/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3223/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3224,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3224/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3224/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3225,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3225/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3225/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3226,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3226/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3226/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3227,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3227/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3227/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3228,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3228/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3228/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3229,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3229/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3229/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3230,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3230/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3230/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3231,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3231/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3231/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3232,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3232/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3232/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3233,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3233/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3233/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3234,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3234/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3234/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3235,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3235/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3235/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3236,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3236/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3236/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3237,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3237/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3237/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3238,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3238/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3238/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3239,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3239/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3239/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3240,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3240/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3240/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3241,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3241/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3241/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3242,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3242/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3242/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3243,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3243/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3243/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3244,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3244/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3244/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3245,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3245/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3245/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3246,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3246/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3246/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3247,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3247/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3247/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3248,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3248/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3248/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3249,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3249/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3249/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3250,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3250/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3250/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3251,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3251/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3251/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3252,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3252/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3252/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3253,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3253/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3253/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3254,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3254/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3254/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3255,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3255/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3255/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3256,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3256/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3256/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3257,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3257/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3257/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3258,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3258/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3258/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3259,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3259/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3259/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3260,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3260/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3260/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3261,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3261/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3261/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3262,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3262/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3262/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3263,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3263/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3263/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3264,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3264/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3264/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3265,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3265/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3265/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3266,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3266/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3266/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3267,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3267/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3267/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3268,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3268/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3268/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3269,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3269/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3269/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3270,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3270/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3270/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3271,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3271/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3271/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3272,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3272/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3272/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3273,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3273/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3273/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3274,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3274/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3274/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3275,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3275/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3275/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3276,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3276/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3276/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3277,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3277/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3277/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3278,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3278/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3278/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3279,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3279/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3279/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3280,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3280/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3280/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3281,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3281/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3281/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3282,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3282/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3282/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3283,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3283/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3283/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3284,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3284/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3284/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3285,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3285/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3285/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3286,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3286/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3286/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3287,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3287/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3287/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3288,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3288/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3288/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3289,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3289/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3289/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3290,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3290/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3290/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3291,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3291/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3291/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3292,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3292/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3292/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3293,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3293/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3293/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3294,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3294/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3294/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3295,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3295/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3295/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3296,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3296/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3296/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3297,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3297/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3297/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3298,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3298/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3298/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3299,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3299/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3299/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3300,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3300/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3300/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3301,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3301/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3301/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3302,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3302/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3302/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3303,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3303/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3303/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3304,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3304/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3304/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3305,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3305/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3305/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3306,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3306/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3306/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3307,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3307/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3307/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3308,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3308/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3308/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3309,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3309/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3309/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3310,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3310/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3310/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3311,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3311/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3311/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3312,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3312/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3312/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3313,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3313/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3313/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3314,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3314/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3314/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3315,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3315/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3315/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3316,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3316/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3316/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3317,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3317/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3317/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3318,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3318/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3318/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3319,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3319/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3319/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3320,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3320/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3320/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3321,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3321/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3321/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3322,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3322/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3322/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3323,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3323/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3323/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3324,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3324/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3324/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3325,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3325/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3325/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3326,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3326/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3326/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3327,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3327/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3327/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3328,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3328/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3328/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3329,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3329/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3329/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3330,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3330/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3330/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3331,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3331/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3331/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3332,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3332/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3332/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3333,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3333/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3333/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3334,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3334/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3334/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3335,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3335/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3335/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3336,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3336/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3336/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3337,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3337/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3337/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3338,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3338/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3338/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3339,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3339/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3339/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3340,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3340/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3340/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3341,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3341/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3341/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3342,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3342/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3342/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3343,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3343/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3343/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3344,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3344/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3344/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3345,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3345/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3345/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3346,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3346/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3346/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3347,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3347/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3347/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3348,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3348/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3348/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3349,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3349/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3349/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3350,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3350/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3350/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3351,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3351/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3351/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3352,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3352/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3352/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3353,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3353/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3353/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3354,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3354/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3354/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3355,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3355/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3355/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3356,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3356/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3356/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3357,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3357/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3357/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3358,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3358/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3358/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3359,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3359/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3359/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3360,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3360/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3360/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3361,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3361/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3361/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3362,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3362/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3362/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3363,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3363/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3363/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3364,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3364/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3364/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3365,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3365/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3365/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3366,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3366/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3366/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3367,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3367/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3367/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3368,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3368/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3368/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3369,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3369/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3369/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3370,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3370/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3370/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3371,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3371/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3371/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3372,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3372/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3372/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3373,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3373/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3373/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3374,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3374/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3374/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3375,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3375/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3375/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3376,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3376/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3376/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3377,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3377/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3377/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3378,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3378/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3378/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3379,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3379/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3379/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3380,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3380/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3380/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3381,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3381/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3381/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3382,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3382/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3382/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3383,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3383/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3383/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3384,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3384/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3384/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3385,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3385/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3385/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3386,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3386/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3386/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3387,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3387/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3387/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3388,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3388/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3388/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3389,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3389/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3389/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3390,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3390/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3390/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3391,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3391/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3391/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3392,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3392/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3392/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3393,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3393/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3393/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3394,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3394/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3394/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3395,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3395/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3395/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3396,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3396/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3396/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3397,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3397/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3397/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3398,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3398/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3398/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3399,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3399/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3399/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3400,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3400/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3400/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3401,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3401/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3401/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3402,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3402/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3402/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3403,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3403/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3403/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3404,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3404/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3404/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3405,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3405/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3405/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3406,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3406/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3406/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3407,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3407/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3407/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3408,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3408/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3408/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3409,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3409/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3409/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3410,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3410/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3410/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3411,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3411/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3411/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3412,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3412/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3412/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3413,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3413/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3413/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3414,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3414/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3414/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3415,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3415/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3415/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3416,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3416/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3416/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3417,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3417/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3417/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3418,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3418/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3418/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3419,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3419/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3419/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3420,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3420/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3420/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3421,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3421/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3421/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3422,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3422/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3422/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3423,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3423/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3423/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3424,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3424/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3424/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3425,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3425/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3425/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3426,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3426/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3426/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3427,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3427/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3427/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3428,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3428/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3428/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3429,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3429/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3429/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3430,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3430/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3430/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3431,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3431/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3431/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3432,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3432/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3432/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3433,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3433/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3433/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3434,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3434/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3434/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3435,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3435/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3435/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3436,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3436/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3436/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3437,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3437/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3437/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3438,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3438/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3438/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3439,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3439/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3439/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3440,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3440/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3440/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3441,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3441/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3441/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3442,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3442/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3442/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3443,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3443/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3443/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3444,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3444/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3444/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3445,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3445/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3445/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3446,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3446/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3446/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 3447,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3447/",
+      "width": 2592,
+      "height": 3872,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/3447/TileGroup0/0-0-0.jpg"
+    }
+  ]
+}

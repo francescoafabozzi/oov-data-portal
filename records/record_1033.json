@@ -1,0 +1,22 @@
+{
+  "recordId": 1033,
+  "count": 2,
+  "items": [
+    {
+      "zoomId": 1033,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/1033/",
+      "width": 591,
+      "height": 768,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/1033/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 1034,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/1034/",
+      "width": 599,
+      "height": 768,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/1034/TileGroup0/0-0-0.jpg"
+    }
+  ]
+}

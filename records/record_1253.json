@@ -1,0 +1,38 @@
+{
+  "recordId": 1253,
+  "count": 4,
+  "items": [
+    {
+      "zoomId": 1253,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/1253/",
+      "width": 1139,
+      "height": 1536,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/1253/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 1254,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/1254/",
+      "width": 1105,
+      "height": 1536,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/1254/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 1255,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/1255/",
+      "width": 1042,
+      "height": 1536,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/1255/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 1256,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/1256/",
+      "width": 1029,
+      "height": 1536,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/1256/TileGroup0/0-0-0.jpg"
+    }
+  ]
+}

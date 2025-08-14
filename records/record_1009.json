@@ -1,0 +1,14 @@
+{
+  "recordId": 1009,
+  "count": 1,
+  "items": [
+    {
+      "zoomId": 1009,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/1009/",
+      "width": 491,
+      "height": 768,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/1009/TileGroup0/0-0-0.jpg"
+    }
+  ]
+}
