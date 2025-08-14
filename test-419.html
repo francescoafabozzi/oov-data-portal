@@ -21,14 +21,22 @@
     <!-- OpenSeadragon Viewer for Artifact 419 -->
     <div id="osd" style="width:100%;height:80vh;border:1px solid #ccc;"></div>
     
+    <!-- Navigation Controls -->
+    <div class="gallery-nav" style="margin-top: 1rem; text-align: center;">
+      <button id="prevBtn">Prev</button>
+      <input type="number" id="pageInput" min="1" style="width: 50px;">
+      <span id="pageCount">/ 7</span>
+      <button id="nextBtn">Next</button>
+      <button id="endBtn">End</button>
+    </div>
+    
     <div style="margin-top: 20px;">
       <h3>Test Information:</h3>
       <p><strong>Artifact ID:</strong> 419</p>
-      <p><strong>Type:</strong> zoomifytileservice</p>
-      <p><strong>Tiles URL:</strong> https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/419/</p>
-      <p><strong>Dimensions:</strong> 552 x 768</p>
-      <p><strong>Tile Size:</strong> 256</p>
-      <p><strong>Note:</strong> Using exact configuration from old site</p>
+      <p><strong>Type:</strong> Multi-page zoomifytileservice</p>
+      <p><strong>Pages:</strong> <span id="pageInfo">Loading...</span></p>
+      <p><strong>Manifest:</strong> record_419.json</p>
+      <p><strong>Note:</strong> Using manifest-based multi-page navigation</p>
     </div>
   </div>
 
@@ -37,23 +45,83 @@
   </footer>
 
   <script>
-    // Initialize OpenSeadragon for artifact 419 using the old site's configuration
-    OpenSeadragon({
-      id: "osd",
-      prefixUrl: "https://cdnjs.cloudflare.com/ajax/libs/openseadragon/4.1.1/images/",
-      showNavigator: true,
-      minZoomLevel: 0.5,
-      maxZoomLevel: 10,
-      zoomPerScroll: 1.2,
-      zoomPerClick: 2.0,
-      tileSources: {
-        type: "zoomifytileservice",
-        tilesUrl: "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/419/",
-        width: 552,
-        height: 768,
-        tileSize: 256
-      }
-    });
+    // Load the manifest and create a multi-page OpenSeadragon viewer
+    fetch('record_419.json')
+      .then(response => response.json())
+      .then(manifest => {
+        const pages = manifest.items;
+        let currentIndex = 0;
+        const pageInput = document.getElementById('pageInput');
+        const pageCount = document.getElementById('pageCount');
+        const pageInfo = document.getElementById('pageInfo');
+
+        // Update page info
+        pageInfo.textContent = `${pages.length} pages (IDs: ${pages.map(p => p.zoomId).join(', ')})`;
+        pageCount.textContent = `/ ${pages.length}`;
+        pageInput.value = 1;
+
+        // Initialize OpenSeadragon with the first page
+        const viewer = OpenSeadragon({
+          id: "osd",
+          prefixUrl: "https://cdnjs.cloudflare.com/ajax/libs/openseadragon/4.1.1/images/",
+          showNavigator: true,
+          minZoomLevel: 0.5,
+          maxZoomLevel: 10,
+          zoomPerScroll: 1.2,
+          zoomPerClick: 2.0,
+          tileSources: {
+            type: "zoomifytileservice",
+            tilesUrl: pages[0].tilesUrl,
+            width: pages[0].width,
+            height: pages[0].height,
+            tileSize: pages[0].tileSize
+          }
+        });
+
+        // Function to update the current page
+        function updatePage(pageIndex) {
+          if (pageIndex >= 0 && pageIndex < pages.length) {
+            currentIndex = pageIndex;
+            const page = pages[currentIndex];
+            viewer.open({
+              type: "zoomifytileservice",
+              tilesUrl: page.tilesUrl,
+              width: page.width,
+              height: page.height,
+              tileSize: page.tileSize
+            });
+            pageInput.value = currentIndex + 1;
+          }
+        }
+
+        // Event listeners for navigation
+        document.getElementById('prevBtn').addEventListener('click', () => {
+          if (currentIndex > 0) {
+            updatePage(currentIndex - 1);
+          }
+        });
+
+        document.getElementById('nextBtn').addEventListener('click', () => {
+          if (currentIndex < pages.length - 1) {
+            updatePage(currentIndex + 1);
+          }
+        });
+
+        document.getElementById('endBtn').addEventListener('click', () => {
+          updatePage(pages.length - 1);
+        });
+
+        pageInput.addEventListener('change', () => {
+          let val = parseInt(pageInput.value, 10) - 1;
+          if (!isNaN(val) && val >= 0 && val < pages.length) {
+            updatePage(val);
+          }
+        });
+      })
+      .catch(error => {
+        console.error('Error loading manifest:', error);
+        document.getElementById('pageInfo').textContent = 'Error loading manifest';
+      });
   </script>
 </body>
 </html>

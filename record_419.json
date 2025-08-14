@@ -1,0 +1,62 @@
+{
+  "recordId": 419,
+  "count": 7,
+  "items": [
+    {
+      "zoomId": 419,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/419/",
+      "width": 552,
+      "height": 768,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/419/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 420,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/420/",
+      "width": 555,
+      "height": 768,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/420/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 421,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/421/",
+      "width": 567,
+      "height": 768,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/421/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 422,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/422/",
+      "width": 557,
+      "height": 768,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/422/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 423,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/423/",
+      "width": 571,
+      "height": 768,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/423/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 424,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/424/",
+      "width": 554,
+      "height": 768,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/424/TileGroup0/0-0-0.jpg"
+    },
+    {
+      "zoomId": 425,
+      "tilesUrl": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/425/",
+      "width": 571,
+      "height": 768,
+      "tileSize": 256,
+      "thumb": "https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/425/TileGroup0/0-0-0.jpg"
+    }
+  ]
+}
