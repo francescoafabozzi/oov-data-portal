@@ -113,6 +113,102 @@ button:hover {
   z-index: 1000;
 }
 
+/* Custom Zoom Controls */
+.zoom-controls {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: rgba(0, 0, 0, 0.8);
+  border: 1px solid #444;
+  border-radius: 6px;
+  padding: 10px;
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.zoom-slider-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.zoom-slider {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 120px;
+  height: 6px;
+  background: #333;
+  outline: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.zoom-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 18px;
+  height: 18px;
+  background: #fff;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 2px solid #444;
+}
+
+.zoom-slider::-moz-range-thumb {
+  width: 18px;
+  height: 18px;
+  background: #fff;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 2px solid #444;
+}
+
+.zoom-label {
+  color: #fff;
+  font-size: 11px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.zoom-buttons {
+  display: flex;
+  gap: 5px;
+}
+
+.zoom-btn {
+  width: 30px;
+  height: 30px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid #555;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: bold;
+  transition: all 0.2s ease;
+}
+
+.zoom-btn:hover {
+  background: rgba(255, 255, 255, 0.2);
+  border-color: #666;
+}
+
+.zoom-btn:active {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+/* Hide default OpenSeadragon zoom controls */
+.openseadragon-canvas {
+  border-radius: 6px;
+}
+
 /* Gallery navigation styling */
 .gallery-nav {
   background: #111;
@@ -158,4 +254,3 @@ button:hover {
   border-top: 1px solid #333;
   color: #aaa;
 }
-
