@@ -24,8 +24,11 @@ async function loadResults() {
   const missingFields = Object.entries(fields).filter(([name, element]) => !element);
   if (missingFields.length > 0) {
     console.error('Missing form fields:', missingFields.map(([name]) => name));
+    console.error('All fields:', fields);
     return;
   }
+
+  console.log('All form fields found successfully:', fields);
 
   function buildPagination() {
     const totalPages = Math.ceil(filteredData.length / itemsPerPage);
@@ -145,29 +148,49 @@ async function loadResults() {
   function applyFilters(resetPage = true) {
     console.log('applyFilters called with resetPage:', resetPage);
     
-    // Safety check - ensure all fields exist
+    // Safety check - ensure all fields exist and have values
     if (!fields.keywords || !fields.location || !fields.owner || !fields.period || !fields.type || !fields.ledger) {
       console.error('Some form fields are missing:', fields);
       return;
     }
     
-    console.log('Current field values:', {
-      keywords: fields.keywords.value,
-      location: fields.location.value,
-      owner: fields.owner.value,
-      period: fields.period.value,
-      type: fields.type.value,
-      ledger: fields.ledger.value
-    });
+    // Additional safety check - ensure all fields are DOM elements
+    const fieldValues = {
+      keywords: fields.keywords.value || '',
+      location: fields.location.value || '',
+      owner: fields.owner.value || '',
+      period: fields.period.value || '',
+      type: fields.type.value || '',
+      ledger: fields.ledger.value || ''
+    };
+    
+    console.log('Current field values:', fieldValues);
     
     if (resetPage) currentPage = 1;
     filteredData = data.filter(item => {
-      return (!fields.keywords.value || item.title.toLowerCase().includes(fields.keywords.value.toLowerCase()) || (item.description && item.description.toLowerCase().includes(fields.keywords.value.toLowerCase()))) &&
-             (!fields.period.value || item.period === fields.period.value) &&
-             (!fields.type.value || item.type === fields.type.value) &&
-             (!fields.ledger.value || (item.ledger && item.ledger.toLowerCase() === fields.ledger.value.toLowerCase())) &&
-             (!fields.location.value || (item.location && item.location.toLowerCase().includes(fields.location.value.toLowerCase()))) &&
-             (!fields.owner.value || (item.owner && item.owner.toLowerCase() === fields.owner.value.toLowerCase()));
+      // Debug: log the item to see what we're working with
+      if (item && typeof item === 'object') {
+        console.log('Processing item:', item);
+      }
+      
+      // Safe string operations with comprehensive null checks
+      const keywordsMatch = !fieldValues.keywords || 
+        (item && item.title && typeof item.title === 'string' && item.title.toLowerCase().includes(fieldValues.keywords.toLowerCase())) ||
+        (item && item.description && typeof item.description === 'string' && item.description.toLowerCase().includes(fieldValues.keywords.toLowerCase()));
+      
+      const periodMatch = !fieldValues.period || (item && item.period === fieldValues.period);
+      const typeMatch = !fieldValues.type || (item && item.type === fieldValues.type);
+      
+      const ledgerMatch = !fieldValues.ledger || 
+        (item && item.ledger && typeof item.ledger === 'string' && item.ledger.toLowerCase() === fieldValues.ledger.toLowerCase());
+      
+      const locationMatch = !fieldValues.location || 
+        (item && item.location && typeof item.location === 'string' && item.location.toLowerCase().includes(fieldValues.location.toLowerCase()));
+      
+      const ownerMatch = !fieldValues.owner || 
+        (item && item.owner && typeof item.owner === 'string' && item.owner.toLowerCase() === fieldValues.owner.toLowerCase());
+      
+      return keywordsMatch && periodMatch && typeMatch && ledgerMatch && locationMatch && ownerMatch;
     });
     
     console.log('Filtered data length:', filteredData.length);
