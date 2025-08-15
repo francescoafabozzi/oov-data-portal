@@ -160,3 +160,140 @@ for y in range(ny):
 final = canvas.crop((0, 0, wL, hL))
 final.save("zoomify_stitched.jpg", quality=95)
 print("Saved zoomify_stitched.jpg")
+
+
+
+
+
+
+#########################################################################
+import re
+from typing import Optional, Dict, Any
+import requests
+from bs4 import BeautifulSoup
+import pandas as pd
+
+
+def scrape_oov_record(record_id: int,
+                      *,
+                      include_dimensions: bool = True,
+                      session: Optional[requests.Session] = None,
+                      timeout: int = 30) -> Dict[str, Any]:
+    """
+    Fetch title, description, and all Zoomify page entries for a given OOV record.
+
+    Returns:
+        {
+          "recordId": int,
+          "title": str,
+          "description": str,
+          "count": int,
+          "items": [
+            {
+              "zoomId": int,
+              "tilesUrl": str,
+              "thumb": str,
+              "width": Optional[int],
+              "height": Optional[int],
+              "tileSize": int
+            }, ...
+          ]
+        }
+    """
+    s = session or requests.Session()
+    headers = {"User-Agent": "Mozilla/5.0"}
+    record_url = f"https://oov.som.yale.edu/search_detail_book.php?id={record_id}"
+    r = s.get(record_url, headers=headers, timeout=timeout)
+    r.raise_for_status()
+    html = r.text
+
+    soup = BeautifulSoup(html, "lxml")
+    title_el = soup.select_one("#image_title")
+    desc_el  = soup.select_one("#image_description")
+    title = (title_el.get_text(strip=True) if title_el else "") or ""
+    description = (desc_el.get_text(strip=True) if desc_el else "") or ""
+
+    # All page images appear as .../files/new-goetzmann-by-id/cache/<ZOOM_ID>-results.jpg
+    zoom_ids = sorted({int(m) for m in re.findall(
+        r"/files/new-goetzmann-by-id/cache/(\d+)-results\.jpg", html)})
+
+    def fetch_props(zid: int):
+        if not include_dimensions:
+            return {"width": None, "height": None, "tileSize": 256}
+        url = f"https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/{zid}/ImageProperties.xml"
+        try:
+            rx = s.get(url, headers=headers, timeout=timeout)
+            if rx.ok and rx.text:
+                m = re.search(
+                    r'WIDTH="(\d+)".*?HEIGHT="(\d+)".*?TILESIZE="(\d+)"',
+                    rx.text
+                )
+                if m:
+                    return {
+                        "width": int(m.group(1)),
+                        "height": int(m.group(2)),
+                        "tileSize": int(m.group(3)),
+                    }
+        except requests.RequestException:
+            pass
+        return {"width": None, "height": None, "tileSize": 256}
+
+    items = []
+    for zid in zoom_ids:
+        props = fetch_props(zid)
+        base = f"https://oov.som.yale.edu/files/new-goetzmann-by-id/zoom/{zid}/"
+        items.append({
+            "zoomId": zid,
+            "tilesUrl": base,
+            "thumb": base + "TileGroup0/0-0-0.jpg",
+            **props
+        })
+
+    return {
+        "recordId": record_id,
+        "title": title,
+        "description": description,
+        "count": len(items),
+        "items": items
+    }
+    
+from tqdm import tqdm
+full_desc = [scrape_oov_record(id_) for id_ in tqdm(df['id'].tolist(),position=0,desc="Scraping full descriptions")]
+
+df_full_desc = pd.DataFrame(full_desc)
+
+df_full_desc['description']
+
+pattern = re.compile(
+    r"^(?:Page|Pge)\s+\d+\s*(?:left|right)?\s*of\s+\d+\s*-?\s*",
+    re.IGNORECASE
+)
+
+cleaned = [pattern.sub("",d.strip()) for d in df_full_desc['description'].tolist()]
+
+df_full_desc['cleaned_description'] = cleaned
+
+new_results = df.drop(columns=['description','title'])
+
+
+new_results = new_results.merge(
+    df_full_desc.drop(columns=['description']),
+    left_on='id',right_on='recordId',how='left'
+).rename(columns={'cleaned_description':'description'})
+
+new_results[
+    [
+        'id','title','description','location','date','period',
+        'type','gallery','ledger','owner'
+    ]
+].to_json('results.json', orient='records')
+
+new_results.to_json('results_full_desc.json', orient='records')
+
+
+df
+
+#df_full_desc.to_json('full_desc.json', orient='records')
+
+#df['full_desc'] = df_full_desc['description'].tolist()
+#df.to_json('results_full_desc.json', orient='records')

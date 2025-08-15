@@ -178,7 +178,9 @@ async function loadResults() {
         (item && item.title && typeof item.title === 'string' && item.title.toLowerCase().includes(fieldValues.keywords.toLowerCase())) ||
         (item && item.description && typeof item.description === 'string' && item.description.toLowerCase().includes(fieldValues.keywords.toLowerCase()));
       
-      const periodMatch = !fieldValues.period || (item && item.period === fieldValues.period);
+      const periodMatch = !fieldValues.period || 
+        (item && item.period && typeof item.period === 'string' && 
+         (item.period === fieldValues.period || item.period.includes(fieldValues.period)));
       const typeMatch = !fieldValues.type || (item && item.type === fieldValues.type);
       
       const ledgerMatch = !fieldValues.ledger || 
