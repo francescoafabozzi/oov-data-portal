@@ -135,6 +135,16 @@ async function loadResults() {
   }
 
   function applyFilters(resetPage = true) {
+    console.log('applyFilters called with resetPage:', resetPage);
+    console.log('Current field values:', {
+      keywords: fields.keywords.value,
+      location: fields.location.value,
+      owner: fields.owner.value,
+      period: fields.period.value,
+      type: fields.type.value,
+      ledger: fields.ledger.value
+    });
+    
     if (resetPage) currentPage = 1;
     filteredData = data.filter(item => {
       return (!fields.keywords.value || item.title.toLowerCase().includes(fields.keywords.value.toLowerCase()) || (item.description && item.description.toLowerCase().includes(fields.keywords.value.toLowerCase()))) &&
@@ -144,6 +154,10 @@ async function loadResults() {
              (!fields.location.value || (item.location && item.location.toLowerCase().includes(fields.location.value.toLowerCase()))) &&
              (!fields.owner.value || (item.owner && item.owner.toLowerCase() === fields.owner.value.toLowerCase()));
     });
+    
+    console.log('Filtered data length:', filteredData.length);
+    console.log('Original data length:', data.length);
+    
     render();
   }
 
@@ -151,21 +165,39 @@ async function loadResults() {
   Object.values(fields).forEach(field => field.addEventListener('input', () => applyFilters(true)));
   
   // Search button functionality
-  document.getElementById('searchBtn').addEventListener('click', (e) => {
-    e.preventDefault();
-    applyFilters(true);
-  });
+  const searchBtn = document.getElementById('searchBtn');
+  const searchForm = document.getElementById('searchForm');
+  const resetBtn = document.getElementById('resetBtn');
+  
+  if (searchBtn) {
+    searchBtn.addEventListener('click', (e) => {
+      e.preventDefault();
+      console.log('Search button clicked!');
+      applyFilters(true);
+    });
+  } else {
+    console.error('Search button not found!');
+  }
   
   // Form submission
-  document.getElementById('searchForm').addEventListener('submit', (e) => {
-    e.preventDefault();
-    applyFilters(true);
-  });
+  if (searchForm) {
+    searchForm.addEventListener('submit', (e) => {
+      e.preventDefault();
+      console.log('Form submitted!');
+      applyFilters(true);
+    });
+  } else {
+    console.error('Search form not found!');
+  }
   
-  document.getElementById('resetBtn').addEventListener('click', () => {
-    Object.values(fields).forEach(f => f.value = '');
-    applyFilters(true);
-  });
+  if (resetBtn) {
+    resetBtn.addEventListener('click', () => {
+      Object.values(fields).forEach(f => f.value = '');
+      applyFilters(true);
+    });
+  } else {
+    console.error('Reset button not found!');
+  }
 
   applyFilters(true);
 }
