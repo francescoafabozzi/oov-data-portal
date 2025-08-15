@@ -93,6 +93,36 @@ body {
   transform: translateY(0);
 }
 
+/* Search Help Styling */
+.search-help {
+  margin-top: 1rem;
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 6px;
+  border: 1px solid #555;
+}
+
+.search-help p {
+  margin: 0 0 0.5rem 0;
+  color: #d0d0d0;
+  font-size: 14px;
+}
+
+.search-help ul {
+  margin: 0;
+  padding-left: 1.5rem;
+  color: #b0b0b0;
+  font-size: 13px;
+}
+
+.search-help li {
+  margin: 0.25rem 0;
+}
+
+.search-help strong {
+  color: #4a9eff;
+}
+
 .results-list {
   display: flex;
   flex-direction: column;

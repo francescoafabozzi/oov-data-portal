@@ -19,7 +19,6 @@
       <form id="searchForm">
         <input type="text" id="keywords" placeholder="Keywords contain">
         <input type="text" id="location" placeholder="Location contains">
-        <input type="text" id="owner" placeholder="Owner equals">
 
         <select id="period">
           <option value="">Period (all)</option>
@@ -28,17 +27,21 @@
           <option value="21st Century">21st Century</option>
         </select>
 
-        <select id="type">
-          <option value="">Type (all)</option>
-          <option value="security">Security</option>
-          <option value="ledger">Ledger</option>
-          <option value="currency">Currency</option>
-        </select>
-
-        <input type="text" id="ledger" placeholder="Ledger Name is">
+        <input type="text" id="type" placeholder="Type contains">
         <button type="submit" id="searchBtn">Search</button>
         <button type="button" id="resetBtn">Reset</button>
       </form>
+      
+      <!-- Search Help -->
+      <div class="search-help">
+        <p><strong>Search Tips:</strong> All fields support partial matching. For example:</p>
+        <ul>
+          <li><strong>Type:</strong> Type "security" to find "Bond, debt, security", "equity, security", etc.</li>
+          <li><strong>Period:</strong> Type "18th" to find "18th Century or before"</li>
+          <li><strong>Keywords:</strong> Searches both title and description</li>
+          <li><strong>Location:</strong> Type "Netherlands" to find Dutch artifacts</li>
+        </ul>
+      </div>
     </div>
   </section>
   <!-- Pagination (top) -->

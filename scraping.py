@@ -291,7 +291,7 @@ new_results[
 new_results.to_json('results_full_desc.json', orient='records')
 
 
-df
+df.type.unique()
 
 #df_full_desc.to_json('full_desc.json', orient='records')
 

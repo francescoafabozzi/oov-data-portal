@@ -15,9 +15,7 @@ async function loadResults() {
     keywords: document.getElementById('keywords'),
     period: document.getElementById('period'),
     type: document.getElementById('type'),
-    ledger: document.getElementById('ledger'),
-    location: document.getElementById('location'),
-    owner: document.getElementById('owner')
+    location: document.getElementById('location')
   };
 
   // Verify all fields exist
@@ -149,7 +147,7 @@ async function loadResults() {
     console.log('applyFilters called with resetPage:', resetPage);
     
     // Safety check - ensure all fields exist and have values
-    if (!fields.keywords || !fields.location || !fields.owner || !fields.period || !fields.type || !fields.ledger) {
+    if (!fields.keywords || !fields.location || !fields.period || !fields.type) {
       console.error('Some form fields are missing:', fields);
       return;
     }
@@ -158,10 +156,8 @@ async function loadResults() {
     const fieldValues = {
       keywords: fields.keywords.value || '',
       location: fields.location.value || '',
-      owner: fields.owner.value || '',
       period: fields.period.value || '',
-      type: fields.type.value || '',
-      ledger: fields.ledger.value || ''
+      type: fields.type.value || ''
     };
     
     console.log('Current field values:', fieldValues);
@@ -181,18 +177,14 @@ async function loadResults() {
       const periodMatch = !fieldValues.period || 
         (item && item.period && typeof item.period === 'string' && 
          (item.period === fieldValues.period || item.period.includes(fieldValues.period)));
-      const typeMatch = !fieldValues.type || (item && item.type === fieldValues.type);
-      
-      const ledgerMatch = !fieldValues.ledger || 
-        (item && item.ledger && typeof item.ledger === 'string' && item.ledger.toLowerCase() === fieldValues.ledger.toLowerCase());
+      const typeMatch = !fieldValues.type || 
+        (item && item.type && typeof item.type === 'string' && 
+         (item.type === fieldValues.type || item.type.toLowerCase().includes(fieldValues.type.toLowerCase())));
       
       const locationMatch = !fieldValues.location || 
         (item && item.location && typeof item.location === 'string' && item.location.toLowerCase().includes(fieldValues.location.toLowerCase()));
       
-      const ownerMatch = !fieldValues.owner || 
-        (item && item.owner && typeof item.owner === 'string' && item.owner.toLowerCase() === fieldValues.owner.toLowerCase());
-      
-      return keywordsMatch && periodMatch && typeMatch && ledgerMatch && locationMatch && ownerMatch;
+      return keywordsMatch && periodMatch && typeMatch && locationMatch;
     });
     
     console.log('Filtered data length:', filteredData.length);
