@@ -10,6 +10,7 @@ async function loadResults() {
   const itemsPerPage = 20; // fixed
   let filteredData = [...data];
 
+  // Move fields object creation inside loadResults function
   const fields = {
     keywords: document.getElementById('keywords'),
     period: document.getElementById('period'),
@@ -18,6 +19,13 @@ async function loadResults() {
     location: document.getElementById('location'),
     owner: document.getElementById('owner')
   };
+
+  // Verify all fields exist
+  const missingFields = Object.entries(fields).filter(([name, element]) => !element);
+  if (missingFields.length > 0) {
+    console.error('Missing form fields:', missingFields.map(([name]) => name));
+    return;
+  }
 
   function buildPagination() {
     const totalPages = Math.ceil(filteredData.length / itemsPerPage);
