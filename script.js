@@ -136,6 +136,13 @@ async function loadResults() {
 
   function applyFilters(resetPage = true) {
     console.log('applyFilters called with resetPage:', resetPage);
+    
+    // Safety check - ensure all fields exist
+    if (!fields.keywords || !fields.location || !fields.owner || !fields.period || !fields.type || !fields.ledger) {
+      console.error('Some form fields are missing:', fields);
+      return;
+    }
+    
     console.log('Current field values:', {
       keywords: fields.keywords.value,
       location: fields.location.value,
