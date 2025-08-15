@@ -25,6 +25,7 @@ class AdminPanel {
         
         // Admin panel buttons
         document.getElementById('addNewBtn').addEventListener('click', () => this.showAddForm());
+        document.getElementById('viewDataBtn').addEventListener('click', () => this.viewCurrentData());
         document.getElementById('exportBtn').addEventListener('click', () => this.exportChanges());
         document.getElementById('logoutBtn').addEventListener('click', () => this.logout());
     }
@@ -334,27 +335,92 @@ class AdminPanel {
             return;
         }
         
-        // Create export data
-        const exportData = {
-            artifacts: this.artifacts,
-            changes: this.changes,
-            exportDate: new Date().toISOString(),
-            totalArtifacts: this.artifacts.length,
-            totalChanges: this.changes.length
-        };
+        // Create clean JSON export (just the artifacts array)
+        const exportData = this.artifacts;
         
-        // Create and download file
-        const blob = new Blob([JSON.stringify(exportData, null, 2)], { type: 'application/json' });
+        // Create and download file with proper MIME type
+        const blob = new Blob([JSON.stringify(exportData, null, 2)], { 
+            type: 'application/json;charset=utf-8' 
+        });
         const url = URL.createObjectURL(blob);
         const a = document.createElement('a');
         a.href = url;
-        a.download = `artifacts_export_${new Date().toISOString().split('T')[0]}.json`;
+        a.download = `results.json`;
+        a.style.display = 'none';
+        
+        // Force download behavior
         document.body.appendChild(a);
         a.click();
         document.body.removeChild(a);
-        URL.revokeObjectURL(url);
         
-        this.showMessage('Export completed successfully!', 'success');
+        // Clean up
+        setTimeout(() => {
+            URL.revokeObjectURL(url);
+        }, 100);
+        
+        this.showMessage('Clean results.json exported successfully!', 'success');
+    }
+    
+    viewCurrentData() {
+        // Show current data in a modal for review
+        const modal = document.createElement('div');
+        modal.className = 'modal-overlay';
+        modal.innerHTML = `
+            <div class="modal-content" style="max-width: 800px;">
+                <div class="modal-header">
+                    <h3>📊 Current Database Data</h3>
+                    <button class="close-btn">&times;</button>
+                </div>
+                
+                <div style="padding: 1.5rem;">
+                    <p><strong>Total Artifacts:</strong> ${this.artifacts.length}</p>
+                    <p><strong>Changes Made:</strong> ${this.changes.length}</p>
+                    
+                    <div style="margin: 1rem 0;">
+                        <button id="copyJsonBtn" class="admin-btn">📋 Copy JSON to Clipboard</button>
+                        <button id="downloadPreviewBtn" class="admin-btn" style="margin-left: 1rem;">💾 Download Preview</button>
+                    </div>
+                    
+                    <div style="background: #2a2a2a; padding: 1rem; border-radius: 4px; max-height: 400px; overflow-y: auto;">
+                        <pre style="color: #f0f0f0; margin: 0; font-size: 12px; white-space: pre-wrap;">${JSON.stringify(this.artifacts, null, 2)}</pre>
+                    </div>
+                </div>
+            </div>
+        `;
+        
+        document.body.appendChild(modal);
+        
+        // Bind modal events
+        const closeBtn = modal.querySelector('.close-btn');
+        const copyBtn = modal.querySelector('#copyJsonBtn');
+        const downloadBtn = modal.querySelector('#downloadPreviewBtn');
+        
+        closeBtn.addEventListener('click', () => this.closeModal(modal));
+        
+        copyBtn.addEventListener('click', () => {
+            navigator.clipboard.writeText(JSON.stringify(this.artifacts, null, 2))
+                .then(() => this.showMessage('JSON copied to clipboard!', 'success'))
+                .catch(() => this.showMessage('Failed to copy to clipboard', 'error'));
+        });
+        
+        downloadBtn.addEventListener('click', () => {
+            const blob = new Blob([JSON.stringify(this.artifacts, null, 2)], { 
+                type: 'application/json;charset=utf-8' 
+            });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = 'results_preview.json';
+            a.click();
+            URL.revokeObjectURL(url);
+        });
+        
+        // Click outside to close
+        modal.addEventListener('click', (e) => {
+            if (e.target === modal) {
+                this.closeModal(modal);
+            }
+        });
     }
     
     showMessage(message, type) {
