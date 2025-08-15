@@ -1,8 +1,9 @@
 body {
   margin: 0;
-  background-color: #000;
-  color: #fff;
+  background-color: #0a0a0a;
+  color: #f0f0f0;
   font-family: Arial, sans-serif;
+  line-height: 1.6;
 }
 
 .banner img {
@@ -18,9 +19,9 @@ body {
 }
 
 .search-panel {
-  background: #111;
+  background: #1a1a1a;
   padding: 1.5rem 0;
-  border-bottom: 1px solid #333;
+  border-bottom: 1px solid #444;
 }
 
 .search-panel h2 {
@@ -39,8 +40,8 @@ body {
 .search-panel select {
   padding: 0.5rem;
   border: 1px solid #555;
-  background: #222;
-  color: #fff;
+  background: #2a2a2a;
+  color: #f0f0f0;
   border-radius: 4px;
   min-width: 150px;
 }
@@ -103,8 +104,9 @@ body {
   display: flex;
   gap: 1rem;
   align-items: flex-start;
-  border-bottom: 1px solid #333;
+  border-bottom: 1px solid #444;
   padding-bottom: 1rem;
+  padding-top: 1rem;
 }
 
 .result-item img {
@@ -119,12 +121,33 @@ body {
 
 .result-details h3 {
   margin: 0 0 0.5rem;
-  color: #fff;
+  color: #f0f0f0;
 }
 
 .result-details p {
   margin: 0.25rem 0;
-  color: #ccc;
+  color: #d0d0d0;
+}
+
+/* Link styling for better readability */
+.result-details a {
+  color: #4a9eff;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.result-details a:hover {
+  color: #66b3ff;
+  text-decoration: underline;
+}
+
+.result-details a:visited {
+  color: #b366ff;
+}
+
+.result-details a:visited:hover {
+  color: #cc99ff;
+  text-decoration: underline;
 }
 
 button {
@@ -325,14 +348,14 @@ button:hover {
 }
 
 .page-links a {
-  color: #ccc;
-  background: #222;
-  border-color: #444;
+  color: #e0e0e0;
+  background: #2a2a2a;
+  border-color: #555;
 }
 
 .page-links a:hover {
-  color: #fff;
-  background: #333;
+  color: #ffffff;
+  background: #3a3a3a;
   border-color: #666;
   transform: translateY(-1px);
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
@@ -390,19 +413,20 @@ button:hover {
 /* Back link styling */
 .back-link {
   display: inline-block;
-  color: #888;
+  color: #4a9eff;
   text-decoration: none;
   margin-bottom: 1rem;
   padding: 0.5rem 1rem;
-  border: 1px solid #444;
+  border: 1px solid #555;
   border-radius: 4px;
   transition: all 0.2s ease;
 }
 
 .back-link:hover {
-  color: #fff;
+  color: #66b3ff;
   border-color: #666;
-  background: #222;
+  background: #2a2a2a;
+  text-decoration: underline;
 }
 
 .site-footer {
