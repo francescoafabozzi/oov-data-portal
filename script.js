@@ -149,6 +149,19 @@ async function loadResults() {
 
   // Event listeners for filters
   Object.values(fields).forEach(field => field.addEventListener('input', () => applyFilters(true)));
+  
+  // Search button functionality
+  document.getElementById('searchBtn').addEventListener('click', (e) => {
+    e.preventDefault();
+    applyFilters(true);
+  });
+  
+  // Form submission
+  document.getElementById('searchForm').addEventListener('submit', (e) => {
+    e.preventDefault();
+    applyFilters(true);
+  });
+  
   document.getElementById('resetBtn').addEventListener('click', () => {
     Object.values(fields).forEach(f => f.value = '');
     applyFilters(true);
